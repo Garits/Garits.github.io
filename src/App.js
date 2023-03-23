@@ -40,7 +40,7 @@ const App = () => {
             <a className="Upcoming" href="">Upcoming</a>
             <a className="My-Account" href="">My Account</a>
           </div>
-          <h1>Movie Searcher</h1>
+          <h1 className="Front-title">Movie Searcher</h1>
           <input placeholder="Search for a film..."
           className="Movie-search"
           onChange= {({target}) => search(target.value)}
